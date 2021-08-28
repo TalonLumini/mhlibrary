@@ -13,3 +13,6 @@ A Japanese / Western board that many veteran runners are familiar with. The boar
 
 ### <a class="is-ghost" href="https://docs.google.com/spreadsheets/u/0/d/1KwvlgujvFoTRoG8ONzDdhZbjslZml1x5DZFZ9CXb1jo/htmlview" target="_blank">MHR WR Freestyle Leaderboard</a>
 Board created by Fox Invictus. Only World Record Freestyle runs will be found here. Will only accept quests HR 6 and up, as well as Rathian. The board also comes with information of time comparisons between weapons.
+
+# Contributors
+Ricochet
