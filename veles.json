@@ -1,0 +1,11 @@
+{
+    "content": ["./site/"],
+    "assets": ["./site/style/"],
+
+    "template": "./site/template.html",
+    "config": "./site/site.json",
+    "meta": "./site/meta.html",
+    
+    "output": "./docs/",
+    "ext": ".md"
+}
