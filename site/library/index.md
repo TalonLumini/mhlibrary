@@ -1,20 +1,3 @@
----
-title: MONSTER HUNTER LIBRARY
-description: MONSTER HUNTER LIBRARY
-subtitle: MONSTER HUNTER RISE
-statement: Bringing information buried from Reddit, Twitter, and Discord out into the open.
----
-<div class="flex text-gray-900 items-center justify-center p-md">
-    <div class="text-left max-w-md">
-        <h1 class="is-size-1">{{ subtitle }}</h1>
-        <p class="is-size-3 font-medium text-gray-500">{{ statement }}</p>
-        <div class="buttons flex-wrap is-md max-w-sm mt-lg">
-        <a class="button is-size-5 is-main rounded-md mr-sm" href="{{ asset ./library/index.html }}">Get Started</a>
-            <a class="button is-size-5 is-success rounded-md mr-sm" href="./contact/index.html">Contact</a>
-        </div>
-    </div>
-</div>
-
 <div class="flex text-gray-900 items-center justify-center p-md mt-xl">
     <div class="text-center max-w-md">
         <h1 class="is-size-1" id="library">Library</h1>

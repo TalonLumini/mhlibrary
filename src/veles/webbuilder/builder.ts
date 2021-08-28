@@ -29,14 +29,23 @@ export function builder() {
                 setMatter(matter);
             }
 
+            const outPath = files[k].split(path).join(output);
+            const outDir = outPath.split(findFileName(files[k], true)).join("");
+
+            const MARKDOWN_ASSETS = assetParser(file);
+            const TEMPLATE_ASSETS = assetParser(template);
+            const META_DATA_ASSETS = assetParser(metaData);
+
+            if (MARKDOWN_ASSETS) {
+                for (const i in MARKDOWN_ASSETS) {
+                    const newPath = assetLinker(MARKDOWN_ASSETS[i], outDir, output);
+                    file = file.split(MARKDOWN_ASSETS[i]).join(newPath);
+                }
+            }
+
             const markdown = md(file);
             let parsed = template.split(BASE_PAGE_RULE).join(markdown).split(META_DATA_RULE).join(metaData)
             parsed = buildWithMatter(parsed);
-
-            const outPath = files[k].split(path).join(output);
-            const outDir = outPath.split(findFileName(files[k], true)).join("");
-            const TEMPLATE_ASSETS = assetParser(template);
-            const META_DATA_ASSETS = assetParser(metaData);
 
             if (TEMPLATE_ASSETS) {
                 for (const i in TEMPLATE_ASSETS) {
