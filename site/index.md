@@ -1,6 +1,6 @@
 ---
 title: MONSTER HUNTER LIBRARY
-description: MONSTER HUNTER LIBRARY
+description: The Monster Hunter Library. Bringing information buried from Reddit, Twitter, and Discord out into the open.
 subtitle: MONSTER HUNTER RISE
 statement: Bringing information buried from Reddit, Twitter, and Discord out into the open.
 ---
