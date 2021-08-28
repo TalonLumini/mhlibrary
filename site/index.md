@@ -1,8 +1,8 @@
 ---
 title: MONSTER HUNTER LIBRARY
 description: MONSTER HUNTER LIBRARY
-subtitle: MIN. A minimal CSS framework for the modern internet.
-statement: Simple & modular.
+subtitle: MONSTER HUNTER RISE
+statement: Bringing information buried from Reddit, Twitter, and Discord out into the open.
 ---
 <div class="pb-md">
     <h1 class="is-size-1">{{ subtitle }}</h1>
