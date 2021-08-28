@@ -1,6 +1,6 @@
 {
     "content": ["./site/"],
-    "assets": ["./site/style/"],
+    "assets": ["./site/style/", "./site/assets/"],
 
     "template": "./site/template.html",
     "config": "./site/site.json",
